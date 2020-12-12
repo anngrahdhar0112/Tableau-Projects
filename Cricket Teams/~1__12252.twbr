@@ -1,0 +1,1156 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0801.1333                               -->
+<workbook source-build='2020.3.0 (20203.20.0801.1333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Players)' inline='true' name='federated.159jqh10qisiui11x82rm0c9px8q' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Players' name='excel-direct.1exxcfn0n0yit01cles5o0pc0745'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='D:/IPL/Players.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1exxcfn0n0yit01cles5o0pc0745' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:E567:no:A1:E567:1' header='yes' lost='0' outcome='1' processed='471'>
+            <column datatype='string' name='Player_Name' ordinal='0' />
+            <column datatype='date' name='DOB' ordinal='1' />
+            <column datatype='string' name='Batting_Hand' ordinal='2' />
+            <column datatype='string' name='Bowling_Skill' ordinal='3' />
+            <column datatype='string' name='Country' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1exxcfn0n0yit01cles5o0pc0745' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:E567:no:A1:E567:1' header='yes' lost='0' outcome='1' processed='471'>
+            <column datatype='string' name='Player_Name' ordinal='0' />
+            <column datatype='date' name='DOB' ordinal='1' />
+            <column datatype='string' name='Batting_Hand' ordinal='2' />
+            <column datatype='string' name='Bowling_Skill' ordinal='3' />
+            <column datatype='string' name='Country' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E567:no:A1:E567:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>471</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Player_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Player_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Player_Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOB</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DOB]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DOB</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Batting_Hand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Batting_Hand]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Batting_Hand</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bowling_Skill</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Bowling_Skill]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bowling_Skill</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Batting_Hand]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Bowling_Skill]' role='dimension' type='nominal' />
+      <column caption='Total Records' datatype='integer' name='[Calculation_2087136986035728385]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36])' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;Zimbabwea&quot;' value='&quot;Zimbabwe&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='date' name='[DOB]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Batting_Hand]' derivation='None' name='[none:Batting_Hand:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Bowling_Skill]' derivation='None' name='[none:Bowling_Skill:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' derivation='Count' name='[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.159jqh10qisiui11x82rm0c9px8q].[yr:DOB:qk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[DOB]' derivation='Year' name='[yr:DOB:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[DOB]' derivation='Year' name='[yr:DOB:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Batting_Hand)' hidden='true' name='[Action (Batting_Hand)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Batting_Hand]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Country)' hidden='true' name='[Action (Country)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(DOB))' hidden='true' name='[Action (YEAR(DOB))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:DOB:ok]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Bowling_Skill,Country)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Bowling_Skill:nk]' />
+          <groupfilter function='level-members' level='[none:Country:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Bowling_Skill:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Right-arm bowler&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Left-arm medium-fast&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Right-arm medium-fast&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Right-arm fast&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Legbreak&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Left-arm fast&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Legbreak googly&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Right-arm offbreak&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Slow left-arm chinaman&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Right-arm fast-medium&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NULL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Left-arm fast-medium&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Slow left-arm orthodox&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Right-arm medium&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Left-arm medium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.159jqh10qisiui11x82rm0c9px8q].[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Batting_Hand:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Right_Hand&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Left_Hand&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;West Indies&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Zimbabwea&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;England&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_FB0160DC106F4AE49FDB358ED93A0F36'>
+            <properties context=''>
+              <relation connection='excel-direct.1exxcfn0n0yit01cles5o0pc0745' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:E567:no:A1:E567:1' header='yes' lost='0' outcome='1' processed='471'>
+                  <column datatype='string' name='Player_Name' ordinal='0' />
+                  <column datatype='date' name='DOB' ordinal='1' />
+                  <column datatype='string' name='Batting_Hand' ordinal='2' />
+                  <column datatype='string' name='Bowling_Skill' ordinal='3' />
+                  <column datatype='string' name='Country' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Country' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='No. of players fromm each country' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Count of birth of players' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Batting Hand' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Bowling Skill' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Batting Hand'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Players)' name='federated.159jqh10qisiui11x82rm0c9px8q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.159jqh10qisiui11x82rm0c9px8q'>
+            <column datatype='string' name='[Batting_Hand]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Sheet1' datatype='integer' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Zimbabwea&quot;' value='&quot;Zimbabwe&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Batting_Hand]' derivation='None' name='[none:Batting_Hand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Action (Country)]'>
+            <groupfilter function='member' level='[Country]' member='&quot;Australia&quot;' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Batting_Hand:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Batting_Hand:nk]' />
+              <groupfilter function='member' level='[none:Batting_Hand:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Batting_Hand:nk]</column>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[Action (Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='441' />
+            <format attr='height' value='210' />
+            <format attr='text-format' field='[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Batting_Hand:nk]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[pcto:cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Batting_Hand:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5C29985C-589C-4D43-A09D-E22C7D0702DC}' />
+    </worksheet>
+    <worksheet name='Bowling Skill'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Players)' name='federated.159jqh10qisiui11x82rm0c9px8q' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.159jqh10qisiui11x82rm0c9px8q'>
+            <column datatype='string' name='[Bowling_Skill]' role='dimension' type='nominal' />
+            <column caption='Total Records' datatype='integer' name='[Calculation_2087136986035728385]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36])' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Sheet1' datatype='integer' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Zimbabwea&quot;' value='&quot;Zimbabwe&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bowling_Skill]' derivation='None' name='[none:Bowling_Skill:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2087136986035728385]' derivation='User' name='[usr:Calculation_2087136986035728385:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Exclusions (Bowling_Skill,Country)]'>
+            <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-exclude='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Bowling_Skill:nk]' />
+              <groupfilter function='level-members' level='[none:Country:nk]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Bowling_Skill:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Bowling_Skill:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Bowling_Skill:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Bowling_Skill:nk]' member='&quot;NULL&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]'>
+            <groupfilter from='&quot;Australia&quot;' function='range' level='[none:Country:nk]' to='&quot;Zimbabwea&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]</column>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Bowling_Skill:nk]</column>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[Exclusions (Bowling_Skill,Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[usr:Calculation_2087136986035728385:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]</rows>
+        <cols>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Bowling_Skill:nk]</cols>
+      </table>
+      <simple-id uuid='{D9A66D80-3005-47FF-8A41-5CB135FE4958}' />
+    </worksheet>
+    <worksheet name='Count of birth of players'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Players)' name='federated.159jqh10qisiui11x82rm0c9px8q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.159jqh10qisiui11x82rm0c9px8q'>
+            <column caption='Total Records' datatype='integer' name='[Calculation_2087136986035728385]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36])' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Zimbabwea&quot;' value='&quot;Zimbabwe&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Sheet1' datatype='integer' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column datatype='date' name='[DOB]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2087136986035728385]' derivation='User' name='[pcto:usr:Calculation_2087136986035728385:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_2087136986035728385]' derivation='User' name='[usr:Calculation_2087136986035728385:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DOB]' derivation='Year' name='[yr:DOB:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[DOB]' derivation='Year' name='[yr:DOB:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]'>
+            <groupfilter from='&quot;Australia&quot;' function='range' level='[none:Country:nk]' to='&quot;Zimbabwea&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.159jqh10qisiui11x82rm0c9px8q].[yr:DOB:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[yr:DOB:qk]</column>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.159jqh10qisiui11x82rm0c9px8q].[pcto:usr:Calculation_2087136986035728385:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.159jqh10qisiui11x82rm0c9px8q].[usr:Calculation_2087136986035728385:qk]' palette='sunrise_sunset_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.159jqh10qisiui11x82rm0c9px8q].[usr:Calculation_2087136986035728385:qk]' />
+              <size column='[federated.159jqh10qisiui11x82rm0c9px8q].[__tableau_internal_object_id__].[cnt:Sheet1_FB0160DC106F4AE49FDB358ED93A0F36:qk]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[yr:DOB:ok]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[pcto:usr:Calculation_2087136986035728385:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{91E169A7-377E-4841-9ACF-7BB842533A81}' />
+    </worksheet>
+    <worksheet name='Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Players)' name='federated.159jqh10qisiui11x82rm0c9px8q' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.159jqh10qisiui11x82rm0c9px8q'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Zimbabwea&quot;' value='&quot;Zimbabwe&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.159jqh10qisiui11x82rm0c9px8q].[Longitude (generated)]' field-type='quantitative' max='22495143.061485644' min='-3835925.4641809063' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.159jqh10qisiui11x82rm0c9px8q].[Latitude (generated)]' field-type='quantitative' max='8445902.8720871322' min='-6748844.3663502103' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' />
+              <geometry column='[federated.159jqh10qisiui11x82rm0c9px8q].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='14' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.159jqh10qisiui11x82rm0c9px8q].[Latitude (generated)]</rows>
+        <cols>[federated.159jqh10qisiui11x82rm0c9px8q].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{51748AEB-EBBD-4572-A169-E18332AF65AF}' />
+    </worksheet>
+    <worksheet name='No. of players fromm each country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&#10;&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Players)' name='federated.159jqh10qisiui11x82rm0c9px8q' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.159jqh10qisiui11x82rm0c9px8q'>
+            <column caption='Total Records' datatype='integer' name='[Calculation_2087136986035728385]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36])' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Sheet1' datatype='integer' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Zimbabwea&quot;' value='&quot;Zimbabwe&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FB0160DC106F4AE49FDB358ED93A0F36]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2087136986035728385]' derivation='User' name='[pcto:usr:Calculation_2087136986035728385:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_2087136986035728385]' derivation='User' name='[usr:Calculation_2087136986035728385:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Country:nk]' />
+              <groupfilter function='member' level='[none:Country:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.159jqh10qisiui11x82rm0c9px8q].[usr:Calculation_2087136986035728385:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.159jqh10qisiui11x82rm0c9px8q].[pcto:usr:Calculation_2087136986035728385:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' />
+              <text column='[federated.159jqh10qisiui11x82rm0c9px8q].[pcto:usr:Calculation_2087136986035728385:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.159jqh10qisiui11x82rm0c9px8q].[usr:Calculation_2087136986035728385:qk]</rows>
+        <cols>[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{FE43AC32-3EB1-4A68-8543-4C7A743EFD72}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='55125' id='21' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='55125' id='18' param='horz' w='82400' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='55125' id='16' w='82400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='25227' id='7' param='horz' w='82400' x='800' y='1000'>
+                  <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='25227' id='5' w='82400' x='800' y='1000'>
+                    <zone h='25227' id='10' name='No. of players fromm each country' w='41200' x='42000' y='1000'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='25227' id='19' name='Country' w='41200' x='800' y='1000'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone h='29898' id='11' name='Batting Hand' w='41200' x='42000' y='26227'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='29898' id='15' name='Count of birth of players' w='41200' x='800' y='26227'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='55125' id='20' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='25750' id='22' name='Country' pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='highlighter' _.fcp.SetMembershipControl.true...type-v2='highlighter' h='6500' id='23' name='Country' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' w='16000' x='83200' y='26750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='42875' id='13' name='Bowling Skill' w='98400' x='800' y='56125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='33' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='32' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='highlighter' _.fcp.SetMembershipControl.true...type-v2='highlighter' h='6500' id='23' name='Country' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' w='16000' x='83200' y='26750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='194' h='25227' id='19' is-fixed='true' name='Country' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='25750' id='22' name='Country' pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='194' h='25227' id='10' is-fixed='true' name='No. of players fromm each country' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='231' h='29898' id='15' is-fixed='true' name='Count of birth of players' w='41200' x='800' y='26227'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='231' h='29898' id='11' is-fixed='true' name='Batting Hand' w='41200' x='42000' y='26227'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42875' id='13' is-fixed='true' name='Bowling Skill' w='98400' x='800' y='56125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{32335F3C-BF9B-4DE6-985C-2B17283F16CD}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='1' param='vert' removable='false' w='98426' x='787' y='830'>
+            <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='3423' id='3' w='98426' x='787' y='830' />
+            <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' w='98426' x='787' y='4253' />
+            <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='84440' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Dashboard 1' id='1'>
+                    <currentDeltas>
+                      <worksheet name='Batting Hand'>
+                        <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Action (Country)]'>
+                          <groupfilter function='level-members' level='[Country]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Bowling Skill'>
+                        <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Action (Country)]'>
+                          <groupfilter function='level-members' level='[Country]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Count of birth of players'>
+                        <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Action (Country)]'>
+                          <groupfilter function='level-members' level='[Country]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Country'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.159jqh10qisiui11x82rm0c9px8q].[Latitude (generated)]' field-type='quantitative' max='6920530.3691026457' min='-10846791.010259632' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.159jqh10qisiui11x82rm0c9px8q].[Longitude (generated)]' field-type='quantitative' max='38519740.266020119' min='-9215128.6164219566' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                        <selection-collection />
+                      </worksheet>
+                      <worksheet name='No. of players fromm each country'>
+                        <filter class='categorical' column='[federated.159jqh10qisiui11x82rm0c9px8q].[Action (Country)]'>
+                          <groupfilter function='level-members' level='[Country]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas />
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{98DCC883-EF09-4763-8534-698B00EDD83E}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{7CBC1AC3-8A87-41F8-B2A6-2CBED97FAF65}' />
+    </window>
+    <window class='worksheet' name='No. of players fromm each country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{992F1A32-65A3-4218-8FD4-109326DDD8BE}' />
+    </window>
+    <window class='worksheet' name='Batting Hand'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Batting_Hand:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3402ABA5-C28B-47FC-9CA9-1BE462050289}' />
+    </window>
+    <window class='worksheet' name='Bowling Skill'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E5FB2EB6-8BE0-497E-8AC7-36F23076491E}' />
+    </window>
+    <window class='worksheet' name='Count of birth of players'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.159jqh10qisiui11x82rm0c9px8q].[none:Country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.159jqh10qisiui11x82rm0c9px8q].[usr:Calculation_2087136986035728385:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4F82E166-A2B4-4E4C-9618-04C0BA62EF65}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Batting Hand' />
+        <viewpoint name='Bowling Skill'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Count of birth of players'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='No. of players fromm each country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='19' />
+      <device-preview visible='true' />
+      <simple-id uuid='{14575E26-9E8B-4C36-8F3E-5BEDC4C0109A}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{0A8E76C3-5EFC-4B0F-A2D8-719CF46505F3}' />
+    </window>
+  </windows>
+</workbook>
